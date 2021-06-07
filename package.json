@@ -1,0 +1,33 @@
+{
+  "name": "@jopemachine/arvis-loremipsum",
+  "version": "0.0.2",
+  "description": "Generate placeholder text in Alfred",
+  "license": "MIT",
+  "author": {
+    "name": "Anton Niklasson",
+    "email": "niklasson.anton@gmail.com",
+    "url": "antn.se"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist",
+    "arvis-workflow.json"
+  ],
+  "keywords": [
+    "arvis",
+    "workflow",
+    "arvish"
+  ],
+  "dependencies": {
+    "@jopemachine/arvish": "^0.1.13",
+    "lorem-ipsum": "^1.0.4"
+  }
+}
