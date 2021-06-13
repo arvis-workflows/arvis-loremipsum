@@ -1,24 +1,24 @@
 {
   "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
   "category": "Productivity",
-  "createdby": "Anton Niklasson",
+  "creator": "Anton Niklasson",
   "description": "",
   "name": "loremipsum",
   "defaultIcon": "icon.png",
   "readme": "",
-  "webaddress": "",
+  "webAddress": "",
   "enabled": true,
   "commands": [
     {
-      "type": "scriptfilter",
+      "type": "scriptFilter",
       "command": "lorem",
       "title": "Lorem Ipsum",
       "subtitle": "",
-      "script_filter": "node index.js \"$1\"",
-      "running_subtext": "Generating...",
+      "scriptFilter": "node index.js \"$1\"",
+      "runningSubtext": "Generating...",
       "withspace": true,
-      "arg_type": "optional",
-      "action": [
+      "argType": "optional",
+      "actions": [
         {
           "modifiers": "normal",
           "type": "clipboard",

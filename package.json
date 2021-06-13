@@ -1,6 +1,6 @@
 {
   "name": "@jopemachine/arvis-loremipsum",
-  "version": "0.0.2",
+  "version": "0.2.0",
   "description": "Generate placeholder text in Alfred",
   "license": "MIT",
   "author": {
@@ -27,7 +27,7 @@
     "arvish"
   ],
   "dependencies": {
-    "@jopemachine/arvish": "^0.1.13",
+    "@jopemachine/arvish": "^0.2.4",
     "lorem-ipsum": "^1.0.4"
   }
 }
