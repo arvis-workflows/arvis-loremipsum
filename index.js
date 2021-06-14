@@ -1,6 +1,6 @@
 'use strict';
 
-const arvish = require('@jopemachine/arvish');
+const arvish = require('arvish');
 const lorem = require('lorem-ipsum');
 
 function generateSentenceOutput(count) {

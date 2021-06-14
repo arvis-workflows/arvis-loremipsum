@@ -2,6 +2,12 @@
 
 > Grab placeholder text in [Arvis](https://github.com/jopemachine/arvis)
 
+## 🔗 This workflow is converted from [alfred-workflow](https://github.com/AntonNiklasson/alfred-loremipsum).
+
+* Note that there might be some code change or different actions from the original workflow.
+
+* Marked original workflow's creator to author.
+
 ## Install
 
 ```
