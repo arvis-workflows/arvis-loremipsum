@@ -5,9 +5,9 @@
   "description": "",
   "name": "loremipsum",
   "defaultIcon": "icon.png",
-  "readme": "",
+  "readme": "loremipsum",
   "webAddress": "",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "enabled": true,
   "commands": [
     {
@@ -15,7 +15,7 @@
       "command": "lorem",
       "title": "Lorem Ipsum",
       "subtitle": "",
-      "scriptFilter": "node index.js \"$1\"",
+      "scriptFilter": "node index.js \"{query}\"",
       "runningSubtext": "Generating...",
       "withspace": true,
       "argType": "optional",
