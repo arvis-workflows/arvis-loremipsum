@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "category": "Productivity",
   "creator": "Anton Niklasson",
-  "description": "",
-  "name": "loremipsum",
+  "description": "Lorem Ipsum generator in Arvis",
+  "name": "arvis-loremipsum",
   "defaultIcon": "icon.png",
   "readme": "loremipsum",
-  "webAddress": "",
-  "version": "0.0.3",
+  "webAddress": "https://github.com/jopemachine/arvis-loremipsum",
+  "version": "0.0.5",
   "enabled": true,
   "commands": [
     {
